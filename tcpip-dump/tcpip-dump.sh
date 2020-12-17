@@ -4,8 +4,7 @@ DATE_TIME=$(date +%Y-%m-%d_%H-%M-%S)
 SAVE_DIRPATH="/opt/tcpip-dump"
 LOTATION_SEC="3600"
 CAP_INTERFACE="enp0s8"
-
-
+CONFIG_FILE="/etc/tcpip-dump/tcpip-dump.conf"
 
 if type "/usr/sbin/tshark" > /dev/null 2>&1; then
 
